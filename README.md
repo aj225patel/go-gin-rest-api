@@ -7,11 +7,6 @@ Manage player scores with ease using this lightweight and efficient REST API.
 - CRUD Operations: Create, read, update, and delete player information seamlessly.
 - Leaderboard: Retrieve a ranked list of players based on their scores.
 
-``` bash
-cd go-gin-rest-api
-go mod download
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -30,7 +25,6 @@ go mod download
 2. Install dependencies:
 
   ``` bash
-cd go-gin-rest-api
 go mod download
 ```
 
