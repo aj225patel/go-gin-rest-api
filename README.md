@@ -19,7 +19,7 @@ Manage player scores with ease using this lightweight and efficient REST API.
 1. Clone the repository:
 
   ```bash
-  git clone [https://github.com/your-username/go-gin-rest-api.git](https://github.com/your-username/go-gin-rest-api.git)
+  git clone https://github.com/your-username/go-gin-rest-api.git
   ```
 
 2. Install dependencies:
