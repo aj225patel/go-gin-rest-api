@@ -28,14 +28,14 @@ Manage player scores with ease using this lightweight and efficient REST API.
 go mod download
 ```
 
-3. Database Setup:
+### Database Setup:
    - Create a PostgreSQL database named gamedatabase
    - Create a table named players with the following columns:
      * player_id (integer, primary key)
      * player_name (text)
      * score (integer)
        
-4. Running the API:
+### Running the API:
    - Start the API server:
      ```bash
      go run main.go
@@ -43,7 +43,7 @@ go mod download
 
    - The API will be accessible at [](http://localhost:8080)
   
-5. API Endpoints:
+### API Endpoints:
    |Endpoints     | Method | Description                                     |
    |--------------|--------|-------------------------------------------------|
    |/player       | GET    | Retrieve information about all players.         |
