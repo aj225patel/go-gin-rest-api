@@ -8,7 +8,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-var connStr = "user=postgres dbname=gamedatabase password=@Vipasha321 sslmode=disable"
+var connStr = "user=postgres dbname=gamedatabase password=#YOUR_PASSWORD sslmode=disable"
 
 func InsertNewPlayer(tableName string, playerId string, playername string, score string) error {
 	query := fmt.Sprintf("INSERT INTO %s (player_id, player_name, score) VALUES ('%s', '%s', '%s')", tableName, playerId, playername, score)
